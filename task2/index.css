@@ -18,7 +18,7 @@ header {
 
 header::before {
     position: absolute;
-    content: url(/img/purple\ light\ header.png);
+    content: url(./img/purple\ light\ header.png);
     left: 20%;
     top: 0%;
     max-width: 100vw;
@@ -26,7 +26,7 @@ header::before {
 
 header::after {
     position: absolute;
-    content: url(/img/purple\ ball.png);
+    content: url(./img/purple\ ball.png);
     left: 63%;
     top: 0%;
     z-index: -1;
@@ -38,7 +38,7 @@ main {
 
 main::before {
     position: absolute;
-    content: url(/img/red\ light.png);
+    content: url(./img/red\ light.png);
     left: 0%;
     top: 0%;
     max-width: 100vh;
@@ -47,7 +47,7 @@ main::before {
 
 main::after {
     position: absolute;
-    content: url(/img/red\ mini\ ball.png);
+    content: url(./img/red\ mini\ ball.png);
     left: 60%;
     top: 85%;
 }
@@ -94,7 +94,7 @@ a {
 
 .container_nav::after {
     position: absolute;
-    content: url(/img/red\ ball.png);
+    content: url(./img/red\ ball.png);
     left: 38%;
     top: 15%;
     z-index: -1;
@@ -382,7 +382,7 @@ u {
 
     main {
         margin-top: 15px;
-        background-image: url(/img/bg.png);
+        background-image: url(./img/bg.png);
         height: 270px;
     }
 
